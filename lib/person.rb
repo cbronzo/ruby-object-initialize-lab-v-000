@@ -1,5 +1,5 @@
 class Person
-  def intialize(name)
+  def intialize(name = "Beyonce")
     @name = name
   end
   def name=(name)
@@ -11,5 +11,5 @@ class Person
   end
 end
 
-beyonce = Person.new("Beyonce")
+beyonce = Person.new
 beyonce.name
